@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Early Bird 搶先登記｜青銀共創</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'PingFang TC',sans-serif;background:#f5f7fa;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.card{background:white;border-radius:16px;max-width:520px;width:100%;box-shadow:0 4px 24px rgba(0,0,0,.10);overflow:hidden}
+.header{background:#1B3A6B;padding:32px 28px 24px;text-align:center}
+.brand{color:#F5A623;font-size:13px;font-weight:600;letter-spacing:2px;margin-bottom:8px}
+h1{color:white;font-size:22px;font-weight:700;line-height:1.4}
+.badge{display:inline-block;background:#F5A623;color:#1B3A6B;font-weight:700;font-size:13px;border-radius:20px;padding:4px 14px;margin-top:12px}
+.body{padding:28px}
+.price-box{background:#EEF2F8;border-radius:10px;padding:14px 18px;margin-bottom:22px;display:flex;align-items:center;gap:12px}
+.price-now{font-size:28px;font-weight:800;color:#1B3A6B}
+.price-orig{font-size:13px;color:#999;text-decoration:line-through}
+.features{margin-bottom:24px}
+.feature{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid #f0f0f0;font-size:14px;color:#333}
+.feature:last-child{border-bottom:none}
+.check{color:#38A169;font-weight:700;flex-shrink:0}
+form{display:flex;flex-direction:column;gap:14px}
+label{font-size:13px;font-weight:600;color:#444;margin-bottom:4px;display:block}
+input,select{width:100%;padding:11px 14px;border:1.5px solid #ddd;border-radius:8px;font-size:15px;font-family:inherit;outline:none}
+input:focus,select:focus{border-color:#1B3A6B}
+.btn{background:#F5A623;color:#1B3A6B;font-weight:800;font-size:17px;border:none;border-radius:10px;padding:15px;cursor:pointer;width:100%}
+.note{font-size:12px;color:#999;text-align:center;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="brand">青 銀 共 創</div>
+    <h1>新鮮人職場生存大禮包<br>搶先登記</h1>
+    <div class="badge">🔥 Early Bird 特惠</div>
+  </div>
+  <div class="body">
+    <div class="price-box">
+      <div>
+        <div class="price-now">NT$149</div>
+        <div class="price-orig">正式上線 NT$399</div>
+      </div>
+      <div style="font-size:12px;color:#666">登記後享 Early Bird 特惠<br>正式開賣前 48 小時 Email 通知</div>
+    </div>
+    <div class="features">
+      <div class="feature"><span class="check">✓</span>非公開升遷指標（高管真實評分標準）</div>
+      <div class="feature"><span class="check">✓</span>向上管理話術表（15 個情境標準話術）</div>
+      <div class="feature"><span class="check">✓</span>高管視角面試指南（破解面試邏輯）</div>
+    </div>
+    <form action="https://formsubmit.co/ainetrender@gmail.com" method="POST">
+      <!-- FormSubmit 設定 -->
+      <input type="hidden" name="_subject" value="🎉 新 Early Bird 登記！青銀共創">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://brunella328.github.io/qingyin-co-create/thanks.html">
+      <input type="hidden" name="_template" value="table">
+
+      <div>
+        <label>姓名 *</label>
+        <input type="text" name="姓名" placeholder="你的名字" required>
+      </div>
+      <div>
+        <label>Email *</label>
+        <input type="email" name="Email" placeholder="your@email.com" required>
+      </div>
+      <div>
+        <label>目前職場狀態 *</label>
+        <select name="職場狀態" required>
+          <option value="">請選擇</option>
+          <option>求職中</option>
+          <option>入職 0-1 年</option>
+          <option>入職 1-3 年</option>
+          <option>其他</option>
+        </select>
+      </div>
+      <div>
+        <label>最大職場困擾（選填）</label>
+        <select name="職場困擾">
+          <option value="">請選擇</option>
+          <option>不知道怎麼和主管溝通</option>
+          <option>擔心試用期表現不達標</option>
+          <option>不懂職場升遷邏輯</option>
+          <option>跨部門協作卡關</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">立即搶先登記 →</button>
+      <div class="note">填寫即代表同意接收開賣通知，不發垃圾郵件</div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
